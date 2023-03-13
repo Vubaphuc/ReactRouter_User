@@ -5,6 +5,7 @@ import axios from 'axios';
 function UserList() {
   const [users, setUsers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [provinces, setProvinces] = useState([]);
 
   useEffect(() => {
     getUsers();
