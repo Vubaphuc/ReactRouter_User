@@ -1,9 +1,9 @@
 
-import UserList from './assets/user/UserList'
-import UserCreate from './assets/user/UserCreate'
-import UserDetail from './assets/user/UserDetail'
+import UserList from './component/user/UserList'
+import UserCreate from './component/user/UserCreate'
+import UserDetail from './component/user/UserDetail'
+import NotFound from './component/notfound/NotFound'
 import { Route, Routes } from 'react-router-dom'
-import NotFound from './assets/notfound/NotFound'
 
 function App() {
 
